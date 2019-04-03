@@ -663,7 +663,7 @@
 #define ST_BLOOD_TOXIC                           ( 147 )
 #define ST_OVERDOSE                              ( 148 )
 #define ST_BLEED                                 ( 149 )
-#define ST_ORG_DMG	                             ( 150 )
+//#define ST_ORG_DMG	                             ( 150 )
 
 // Initial values of animation 3d layers
 #define ST_ANIM3D_LAYERS                         ( 150 ) // Hardcoded
