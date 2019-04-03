@@ -5,7 +5,7 @@
 #define PATH_TO_FASTPANEL_FOLDER                 "./fastpanel/"
 
 // 3d players mod, uncomment for use
-// #define PLAYERS_3D             // Enable 3d players // включает 3д чаров по дефолту, нам не нужно.
+// #define PLAYERS_3D             // Enable 3d players // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 3пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
 #define PLAYERS_3D_NO_HEAD                       // No head slot
 // #define PLAYERS_3D_VAULT_SUITE // Vault suite by default, not naked
 
@@ -373,9 +373,9 @@
 #define SLOT_PERK_STEALTH_BOY                    ( 0x08 ) // +20 sneak
 
 // In SendMessage
-#define MESSAGE_TO_WHO_SEES_ME                   ( 0 )    // Отослать сообщения всем кто видет криттера.
-#define MESSAGE_TO_I_SEE                         ( 1 )    // Отослать сообщения всем кого видит криттер.
-#define MESSAGE_TO_ALL_ON_MAP                    ( 2 )    // Отослать всем на карте.
+#define MESSAGE_TO_WHO_SEES_ME                   ( 0 )    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define MESSAGE_TO_I_SEE                         ( 1 )    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define MESSAGE_TO_ALL_ON_MAP                    ( 2 )    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
 
 // Critter actions
 // Flags for chosen:
@@ -467,31 +467,31 @@
 #define CTE_DYSPNEA                              ( 49 )
 #define CTE_EXP		                             ( 50 )
 #define CTE_ORG_DMG		                         ( 51 )
-#define CTE_LIMB_MANAGEMENT                      ( 52 ) // Обработка конечностей by Kriegwolf
-#define CTE_QUICKHEAL                            ( 53 ) // Быстрое лечение by Kriegwolf
-#define CTE_STIMOVERDOSE                         ( 54 ) // Передозировка, стимы by Kriegwolf
-#define CTE_SSTIMOVERDOSE                        ( 55 ) // Передозировка, суперстимы by Kriegwolf
-#define CTE_PSI_HEAL	                         ( 56 ) // Реген псионика by Sarkof
-#define CTE_PSI_VISION	                         ( 57 ) // Видимость сквозь стены by Sarkof
-#define CTE_PSI_DEGRAD	                         ( 58 ) // Уже не тот // Скатывание псионика by Sarkof
-#define CTE_PSI_SHIELD	                         ( 59 ) // Пси-щит by Kriegwolf
-#define CTE_BODYSWAP							 ( 60 ) // Майндконтроль by Kriegwolf
-#define CTE_BRAHMIN_PREGNANCY					 ( 61 ) // Беременность браминов by Kriegwolf
-#define CTE_BRAHMIN_SEARCH						 ( 62 ) // Поиск партнера браминами by Kriegwolf
-#define CTE_BRAHMIN_GROWTH						 ( 63 ) // Рост браминов by Kriegwolf
-#define CTE_BRAHMIN_FOLLOW						 ( 64 ) // Следование за хозяином браминов by Kriegwolf
+#define CTE_LIMB_MANAGEMENT                      ( 52 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ by Kriegwolf
+#define CTE_QUICKHEAL                            ( 53 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ by Kriegwolf
+#define CTE_STIMOVERDOSE                         ( 54 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ by Kriegwolf
+#define CTE_SSTIMOVERDOSE                        ( 55 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ by Kriegwolf
+#define CTE_PSI_HEAL	                         ( 56 ) // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ by Sarkof
+#define CTE_PSI_VISION	                         ( 57 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ by Sarkof
+#define CTE_PSI_DEGRAD	                         ( 58 ) // пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ by Sarkof
+#define CTE_PSI_SHIELD	                         ( 59 ) // пїЅпїЅпїЅ-пїЅпїЅпїЅ by Kriegwolf
+#define CTE_BODYSWAP							 ( 60 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ by Kriegwolf
+#define CTE_BRAHMIN_PREGNANCY					 ( 61 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ by Kriegwolf
+#define CTE_BRAHMIN_SEARCH						 ( 62 ) // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ by Kriegwolf
+#define CTE_BRAHMIN_GROWTH						 ( 63 ) // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ by Kriegwolf
+#define CTE_BRAHMIN_FOLLOW						 ( 64 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ by Kriegwolf
 
-#define CTE_AGGRESSION						     ( 65 ) // Автоэмоуты агрессии
+#define CTE_AGGRESSION						     ( 65 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 // Drugs time events                40 (PID_STIMPAK) .. 1000
 
 // Parameters
 // / Stats
-#define DYS										 ( 191 ) // Тик удушения
-#define CHANCE								     ( 192 ) // Шанс выпадания при добыче руды//Длительность отхила сски
-#define P_PSI								     ( 193 ) // Запас силы у пси-способностей ( 0 - способности отсутствуют )
-#define P_PSI_MAX								 ( 194 ) // Максимальный запас
-#define P_PSI_LIMIT								 ( 195 ) // Порог, после которого начинается процесс деградации псионика
-#define ROLL									 ( 196 ) // Порог, после которого начинается процесс деградации псионика
+#define DYS										 ( 191 ) // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define CHANCE								     ( 192 ) // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+#define P_PSI								     ( 193 ) // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ( 0 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ )
+#define P_PSI_MAX								 ( 194 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+#define P_PSI_LIMIT								 ( 195 ) // пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define ROLL									 ( 196 ) // пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 #define STAT_BEGIN                               ( 0 )
 #define STAT_END                                 ( 199 )
 #define STAT_COUNT                               ( STAT_END - STAT_BEGIN + 1 )
@@ -587,7 +587,7 @@
 #define ST_MAX_MOVE_AP                           ( 87 ) // Hardcoded
 #define ST_MOVE_AP                               ( 88 ) // Hardcoded
 #define ST_NPC_ROLE                              ( 89 ) // Hardcoded
-// ToDo: прочесать сприпты и отметить тут где юзаются ST_VARы для игроков. Для нпс только в системных скриптах вроде AI, боевки и т.п.
+// ToDo: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ ST_VARпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ AI, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅ.пїЅ.
 #define ST_VAR0                                  ( 90 ) // players: skins	npc: poker, repl_bank
 #define ST_VAR1                                  ( 91 )
 #define ST_VAR2                                  ( 92 )
@@ -621,8 +621,8 @@
 // 120..129 reserved for hardcoded values
 
 
-// q3: перенести все с 120 по 149 на 700+
-#define ST_SPEED_MOD                             ( 120 ) // Скорость чара
+// q3: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅ 120 пїЅпїЅ 149 пїЅпїЅ 700+
+#define ST_SPEED_MOD                             ( 120 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 #define ST_ARCADE_DEAD                           ( 121 )
 
 #define ST_LOCALMAP_DIR                          ( 122 )
@@ -631,9 +631,9 @@
 #define ST_EXPERIENCE_MULTIPLIER                 ( 124 ) // expbar
 #define ST_EXPERIENCE_MULTIPLIER_TIME            ( 125 ) // expbar
 
-#define ST_DYSPNEA                               ( 126 ) // кислород
-#define ST_THRIST                                ( 127 ) // жажда
-#define ST_HUNGER                                ( 128 ) // голод
+#define ST_DYSPNEA                               ( 126 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define ST_THRIST                                ( 127 ) // пїЅпїЅпїЅпїЅпїЅ
+#define ST_HUNGER                                ( 128 ) // пїЅпїЅпїЅпїЅпїЅ
 
 #define ST_WAYPOINT_GROUP                        ( 129 )
 
@@ -669,18 +669,18 @@
 #define ST_ANIM3D_LAYERS                         ( 150 ) // Hardcoded
 // 150..179 reserved for 30 layers
 
-// q3: перенести все с 180 по 189 на 700+
-#define ST_PARALYSIS_LEVEL                       ( 180 ) // Уровень паралича. TabaK
-#define ST_WARNINGS                              ( 181 ) // Количество предупреждений. TabaK
-#define HANDCUFFS                                ( 182 ) // Параметры наручников. TabaK
-#define ST_MUTATION                              ( 183 ) // Уровень мутации. TabaK.
-#define ST_ARCADE_DANGER                         ( 184 ) // Уровень невкусности.
-#define LAST_ATTACKED                            ( 185 ) // Id последнего атакованного игрока.
-#define ST_BLOCK                                 ( 186 ) // находится ли игрок в режиме блока
-#define ST_DESEASE                               ( 187 ) // уровень болезни (также для контроля атаковался ли моб аркадой и освежован ли уже)
-#define ST_KILLER_PERSON                         ( 188 ) // ID убийцы персонажа
-#define ST_QMAP                                  ( 189 ) // q3: с какой картой синхронизирован
-#define ST_STAMINA                               ( 190 ) // q3: с какой картой синхронизирован
+// q3: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅ 180 пїЅпїЅ 189 пїЅпїЅ 700+
+#define ST_PARALYSIS_LEVEL                       ( 180 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. TabaK
+#define ST_WARNINGS                              ( 181 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. TabaK
+#define HANDCUFFS                                ( 182 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. TabaK
+#define ST_MUTATION                              ( 183 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. TabaK.
+#define ST_ARCADE_DANGER                         ( 184 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define LAST_ATTACKED                            ( 185 ) // Id пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ.
+#define ST_BLOCK                                 ( 186 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+#define ST_DESEASE                               ( 187 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ)
+#define ST_KILLER_PERSON                         ( 188 ) // ID пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define ST_QMAP                                  ( 189 ) // q3: пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define ST_STAMINA                               ( 190 ) // q3: пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 // 192..199 
 
 // Additional critter stats
@@ -927,32 +927,32 @@
 #define MODE_BEGIN                               ( 510 )
 #define MODE_END                                 ( 549 )
 #define MODE_COUNT                               ( MODE_END - MODE_BEGIN + 1 )
-#define MODE_HIDE                                ( 510 ) // Состояние скрытности                                   Hardcoded
-#define MODE_NO_STEAL                            ( 511 ) // Нельзя обворовать                                      Hardcoded
-#define MODE_NO_BARTER                           ( 512 ) // Нельзя тоговать                                        Hardcoded
-#define MODE_NO_ENEMY_STACK                      ( 513 ) // Нпц не запоминает врагов                               Hardcoded
-#define MODE_NO_PVP                              ( 514 ) // Запрещает ПвП для игрока                               Hardcoded
-#define MODE_END_COMBAT                          ( 515 ) // Согласен ли игрок закончить пошаговый бой              Hardcoded
-#define MODE_DEFAULT_COMBAT                      ( 516 ) // Режим боя по-умолчанию                                 Hardcoded
-#define MODE_NO_HOME                             ( 517 ) // Нпц не возвращается в домашнюю позицию автоматически   Hardcoded
-#define MODE_GECK                                ( 518 ) // Локация не удаляется при наличии такого нпц            Hardcoded
-#define MODE_NO_FAVORITE_ITEM                    ( 519 ) // Режим установки итемов по-умолчанию                    Hardcoded
-#define MODE_NO_ITEM_GARBAGER                    ( 520 ) // Итемы не удаляются движком                             Hardcoded
-#define MODE_DLG_SCRIPT_BARTER                   ( 521 ) // Возможно торговать при активном скрипте на диалоге     Hardcoded
-#define MODE_UNLIMITED_AMMO                      ( 522 ) // Бесконечные патроны                                    Hardcoded
-#define MODE_NO_DROP                             ( 523 ) // Нельзя сбрасывать предметы
-#define MODE_NO_LOOSE_LIMBS                      ( 524 ) // Не может терять конечности
-#define MODE_DEAD_AGES                           ( 525 ) // Мёртвое тело не исчезает
-#define MODE_NO_HEAL                             ( 526 ) // Повреждения не излечиваются с течением времени
-#define MODE_INVULNERABLE                        ( 527 ) // Неуязвимый                                             Hardcoded
-#define MODE_NO_FLATTEN                          ( 528 ) // Не помещать труп на задний план после смерти           Hardcoded
-#define MODE_SPECIAL_DEAD                        ( 529 ) // Есть особый вид смерти
-#define MODE_RANGE_HTH                           ( 530 ) // Возможна рукопашная атака на расстоянии                Hardcoded
-#define MODE_NO_KNOCK                            ( 531 ) // Не может быть сбит с ног
-#define MODE_NO_LOOT                             ( 532 ) // Нельзя лутать                                          Hardcoded
-#define MODE_NO_SUPPLY                           ( 533 ) // Не приходят охотники за головами при смерти нпц
-#define MODE_NO_KARMA_ON_KILL                    ( 534 ) // При смерти не производится перерасчета кармы игрока-убийцы
-#define MODE_BARTER_ONLY_CASH                    ( 535 ) // При бартере нпц принимает оплату только наличными
+#define MODE_HIDE                                ( 510 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ                                   Hardcoded
+#define MODE_NO_STEAL                            ( 511 ) // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ                                      Hardcoded
+#define MODE_NO_BARTER                           ( 512 ) // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ                                        Hardcoded
+#define MODE_NO_ENEMY_STACK                      ( 513 ) // пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ                               Hardcoded
+#define MODE_NO_PVP                              ( 514 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ                               Hardcoded
+#define MODE_END_COMBAT                          ( 515 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ              Hardcoded
+#define MODE_DEFAULT_COMBAT                      ( 516 ) // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ                                 Hardcoded
+#define MODE_NO_HOME                             ( 517 ) // пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ   Hardcoded
+#define MODE_GECK                                ( 518 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ            Hardcoded
+#define MODE_NO_FAVORITE_ITEM                    ( 519 ) // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ                    Hardcoded
+#define MODE_NO_ITEM_GARBAGER                    ( 520 ) // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ                             Hardcoded
+#define MODE_DLG_SCRIPT_BARTER                   ( 521 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ     Hardcoded
+#define MODE_UNLIMITED_AMMO                      ( 522 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ                                    Hardcoded
+#define MODE_NO_DROP                             ( 523 ) // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define MODE_NO_LOOSE_LIMBS                      ( 524 ) // пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define MODE_DEAD_AGES                           ( 525 ) // МёпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define MODE_NO_HEAL                             ( 526 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define MODE_INVULNERABLE                        ( 527 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ                                             Hardcoded
+#define MODE_NO_FLATTEN                          ( 528 ) // пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ           Hardcoded
+#define MODE_SPECIAL_DEAD                        ( 529 ) // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+#define MODE_RANGE_HTH                           ( 530 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ                Hardcoded
+#define MODE_NO_KNOCK                            ( 531 ) // пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ
+#define MODE_NO_LOOT                             ( 532 ) // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ                                          Hardcoded
+#define MODE_NO_SUPPLY                           ( 533 ) // пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+#define MODE_NO_KARMA_ON_KILL                    ( 534 ) // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅ
+#define MODE_BARTER_ONLY_CASH                    ( 535 ) // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 #define MODE_NO_PUSH                             ( 536 ) // Can't be pushed                                        Hardcoded
 #define MODE_NO_UNARMED                          ( 537 ) // Not have unarmed attacks                               Hardcoded
 #define MODE_NO_AIM                              ( 538 ) // Critter can't do aim attacks                           Hardcoded
@@ -1024,11 +1024,11 @@
 #define ST_CELL_X                                ( 704 )
 #define ST_CELL_Y                                ( 705 )
 
-//Хранит координаты, с которыми работает криттер.
+//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 #define CR_HEXX									 ( 706 )
 #define CR_HEXY									 ( 707 )
 
-//Переменные для ГМ-меню:
+//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ-пїЅпїЅпїЅпїЅ:
 #define CR_VAL0								     ( 708 )
 #define CR_VAL1								     ( 709 )
 #define CR_VAL2								     ( 710 )
@@ -1042,21 +1042,21 @@
 
 #define CR_ROULETTE_START_MONEY					 ( 718 )
 
-#define BP_ROBOT_SELF_REPAIR                     ( 720 ) //Кривое говно, без вмешательства ГМа дефолтно равно 0 (т.е. не проходит проверки и связанная с ним логика не фурычит).
+#define BP_ROBOT_SELF_REPAIR                     ( 720 ) //пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ 0 (пїЅ.пїЅ. пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ).
 #define BP_BLOOD_LOSS                            ( 721 ) 
 
-#define CR_STRENGTH                              ( 722 ) //Параметры, в которых хранится база стата до применения нейротоксина.
-#define CR_PERCEPTION                            ( 723 ) //Параметры, в которых хранится база стата до применения нейротоксина.
-#define CR_AGILITY                               ( 724 ) //Параметры, в которых хранится база стата до применения нейротоксина.
-#define CR_ENDURANCE                             ( 725 ) //Параметры, в которых хранится база стата до применения нейротоксина.
+#define CR_STRENGTH                              ( 722 ) //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define CR_PERCEPTION                            ( 723 ) //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define CR_AGILITY                               ( 724 ) //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define CR_ENDURANCE                             ( 725 ) //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 
-#define CR_IS_AGGRESSIVE                         ( 726 ) //Хранит в себе агрессивность криттера.
-#define CR_SLEEPING_STATE                        ( 727 ) //Режим лежания.
-#define CR_SINF_MODE                             ( 728 ) //Режим просмотра айдишников у ГМа.
-#define CR_LAST_ROTTEN_CYCLE                     ( 729 ) //Номер последнего цикла гниения, который был в инвентаре существа.
-#define CR_FIXED_SPEED                           ( 730 ) //Флаг того, что скорость криттера не меняется.
-#define CR_IS_WINDUPED                           ( 731 ) //Флаг того, что криттер подготовлен к бою.
-#define CR_AUTO_AIM                              ( 732 ) //Номер части тела, в которую автоматом стреляет криттер.
+#define CR_IS_AGGRESSIVE                         ( 726 ) //пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define CR_SLEEPING_STATE                        ( 727 ) //пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define CR_SINF_MODE                             ( 728 ) //пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ.
+#define CR_LAST_ROTTEN_CYCLE                     ( 729 ) //пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define CR_FIXED_SPEED                           ( 730 ) //пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define CR_IS_WINDUPED                           ( 731 ) //пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ.
+#define CR_AUTO_AIM                              ( 732 ) //пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 
 #define P_CRITTER_ID							 ( 760 )
 #define P_BODYSWAPPED							 ( 761 )
@@ -1074,17 +1074,17 @@
 #define MERC_BEGIN                               ( 800 )
 #define MERC_END                                 ( 810 )
 #define MERC_COUNT                               ( MERC_END - MERC_BEGIN + 1 )
-#define MERC_MASTER_ID                           ( 800 ) // Id хозяина мерка
-#define MERC_ALWAYS_RUN                          ( 801 ) // Признак, мерк перемещаетя бегом при следовании за хозяином
-#define MERC_CANCEL_ON_ATTACK                    ( 802 ) // Признак, отменяет ли мерк службу, если хозяин атакует самого мерка.
-#define MERC_LOSE_DIST                           ( 803 ) // Дистанция, при превышении которой мерк "отстает" от хозяина и отменяет режиме мерка.
-#define MERC_MASTER_DIST                         ( 804 ) // Дистанция, которой придерживается мерк в режиме следования за хозяином
-#define MERC_TYPE                                ( 805 ) // Тип мерка. См. merc_h
-#define MERC_DEFEND_MASTER                       ( 806 ) // Признак: мерк защищает хозяина, если тот атакован
-#define MERC_ASSIST_MASTER                       ( 807 ) // Признак: если хозяин атакует цель, мерк присоединяется к атаке
-#define MERC_CANCEL_TIME                         ( 808 ) // Время завершения службы
-#define MERC_CANCEL_ON_GLOBAL                    ( 809 ) // Признак: мерк отменяет службу, если хозяин вышел на глобальную карту.
-#define MERC_WAIT_FOR_MASTER                     ( 810 ) // Признак: мерк ожидает хозяина на конкретном месте
+#define MERC_MASTER_ID                           ( 800 ) // Id пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+#define MERC_ALWAYS_RUN                          ( 801 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define MERC_CANCEL_ON_ATTACK                    ( 802 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
+#define MERC_LOSE_DIST                           ( 803 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
+#define MERC_MASTER_DIST                         ( 804 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define MERC_TYPE                                ( 805 ) // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅ. merc_h
+#define MERC_DEFEND_MASTER                       ( 806 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+#define MERC_ASSIST_MASTER                       ( 807 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ
+#define MERC_CANCEL_TIME                         ( 808 ) // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+#define MERC_CANCEL_ON_GLOBAL                    ( 809 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
+#define MERC_WAIT_FOR_MASTER                     ( 810 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 
 //
 // 830..999
@@ -1325,11 +1325,11 @@
 #define FOG_NONE                                 ( 3 )
 
 // Critter extra flags, only for read
-#define CRITTER_PLAYER                           ( 0x00010000 ) // Игрок.
-#define CRITTER_NPC                              ( 0x00020000 ) // Нпц.
-#define CRITTER_DISCONNECT                       ( 0x00080000 ) // В оффлайне.
-#define CRITTER_CHOSEN                           ( 0x00100000 ) // Криттер игрока. Используется только при отправке сообщения клиенту для идентификации его персонажа.
-#define CRITTER_RULEGROUP                        ( 0x00200000 ) // Рулевой в группе на глобале.
+#define CRITTER_PLAYER                           ( 0x00010000 ) // пїЅпїЅпїЅпїЅпїЅ.
+#define CRITTER_NPC                              ( 0x00020000 ) // пїЅпїЅпїЅ.
+#define CRITTER_DISCONNECT                       ( 0x00080000 ) // пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define CRITTER_CHOSEN                           ( 0x00100000 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+#define CRITTER_RULEGROUP                        ( 0x00200000 ) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 
 // Hit locations
 #define HIT_LOCATION_NONE                        ( 0 )
@@ -1431,7 +1431,7 @@
 #define LOOK_CHECK_SCRIPT                        ( 0x10 )                // Allow bool check_look(...) in main.fos, all other defines ignored
 #define LOOK_CHECK_ITEM_SCRIPT                   ( 0x20 )                // Allow bool check_trap_look(...) in main.fos, for items with ITEM_TRAP flag
 
-// Critter base types  Скины
+// Critter base types  пїЅпїЅпїЅпїЅпїЅ
 #define CRTYPE_DEFAULT_M                         ( 62 ) //CRTYPE_LHD_JUMPSUIT // CRTYPE_VAULT_M
 #define CRTYPE_DEFAULT_F                         ( 61 ) //CRTYPE_DW_JUMPSUIT_F
 #define CRTYPE_NONE                              ( 0 )  // Used with ST_BASE_CRTYPE as default
@@ -1472,13 +1472,13 @@
 #define CRTYPE_BLD_TRIBAL                        ( 120 )
 #define CRTYPE_BLD_LEATHERBLUE                   ( 126 )
 
-// Серый коготь 122 песочная роба
-#define AZMADON_JUMP		                     ( 100 ) //Серый коготь
-#define AZMADON_SNEAK		                     ( 99 )  //Роба когтя
-#define AZMADON_HALAT		                     ( 122 ) //Песонач роба
-#define LEATHER_ARMOR_MK_III					 ( 142 ) //Кожанка МК3
+// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 122 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+#define AZMADON_JUMP		                     ( 100 ) //пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+#define AZMADON_SNEAK		                     ( 99 )  //пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+#define AZMADON_HALAT		                     ( 122 ) //пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+#define LEATHER_ARMOR_MK_III					 ( 142 ) //пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ3
 
-// Олимпус 2077. Нигер
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2077. пїЅпїЅпїЅпїЅпїЅ
 #define NIG_JUMPSUIT							 ( 149 )
 #define NIG_LEATHER_JACKET						 ( 153 )
 #define NIG_LEATHER_JACKET_MEH					 ( 150 )	
@@ -1487,28 +1487,28 @@
 #define NIG_CA									 ( 154 )
 #define NIG_CA_NH								 ( 152 )
 
-// Криттеры и одевание брони
-// Принцип группировки
-# define SKIN_NAKED                               ( 0 )		//Дикарь, голый
-# define SKIN_JUMPSUIT                            ( 1 )		//Пижама
-# define SKIN_JACKET                              ( 2 )		//Куртка кожаная
-# define SKIN_LEATHER_ARMOR_MK1                   ( 3 )		//Броня кожаная МК1
-# define SKIN_LEATHER_ARMOR_MK2                   ( 4 )		//Броня кожаная МК2
-# define SKIN_LEATHER_ARMOR_BLUE                  ( 5 )		//Броня кожаная огнеупорная
-# define SKIN_LEATHER_ARMOR_CAMMO                 ( 6 )		//Броня кожаная серая каммо
-# define SKIN_LEATHER_ARMOR_RED                   ( 7 )		//Броня кожаная красная
-# define SKIN_METAL 		                      ( 8 )		//Броня металлическая
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define SKIN_NAKED                               ( 0 )		//пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ
+# define SKIN_JUMPSUIT                            ( 1 )		//пїЅпїЅпїЅпїЅпїЅпїЅ
+# define SKIN_JACKET                              ( 2 )		//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define SKIN_LEATHER_ARMOR_MK1                   ( 3 )		//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ1
+# define SKIN_LEATHER_ARMOR_MK2                   ( 4 )		//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ2
+# define SKIN_LEATHER_ARMOR_BLUE                  ( 5 )		//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define SKIN_LEATHER_ARMOR_CAMMO                 ( 6 )		//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define SKIN_LEATHER_ARMOR_RED                   ( 7 )		//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define SKIN_METAL 		                      ( 8 )		//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-// Имена групп
-# define SKIN_TYPE_WOMAN                          ( 0 )		//Женщина
-# define SKIN_TYPE_PUNKESS                        ( 1 )		//Женщина-панк
-# define SKIN_TYPE_MAN                            ( 2 )		//Мужчина
-# define SKIN_TYPE_HAIRY                          ( 3 )		//Мужчина патлач
-# define SKIN_TYPE_BALD                           ( 4 )		//Мужчина лысый
-# define SKIN_TYPE_BLACK                          ( 5 )		//Мужчина негр
-# define SKIN_TYPE_FAT                            ( 6 )		//Мужчина жиробас
+// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define SKIN_TYPE_WOMAN                          ( 0 )		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define SKIN_TYPE_PUNKESS                        ( 1 )		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅ
+# define SKIN_TYPE_MAN                            ( 2 )		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define SKIN_TYPE_HAIRY                          ( 3 )		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define SKIN_TYPE_BALD                           ( 4 )		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define SKIN_TYPE_BLACK                          ( 5 )		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+# define SKIN_TYPE_FAT                            ( 6 )		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-// Стандартная женщина
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 # define CRTYPE_DW_TRIBAL_F                       ( 61 )	
 # define CRTYPE_DW_JUMPSUIT_F                     ( 4 )		
 # define CRTYPE_DW_LEATHER_JACKET_F               ( 6 )		
@@ -1519,7 +1519,7 @@
 # define CRTYPE_DW_LEATHER_ARMOR_RED_F            ( 207 )
 # define CRTYPE_DW_METAL_ARMOR_F                  ( 7 )		
 
-// Баба-панкуха
+// пїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 # define CRTYPE_PUNKESS_TRIBAL                    ( 151 )
 # define CRTYPE_PUNKESS_JUMPSUIT                  ( 152 )
 # define CRTYPE_PUNKESS_LEATHER_JACKET            ( 34 )
@@ -1530,7 +1530,7 @@
 # define CRTYPE_PUNKESS_LEATHER_ARMOR_RED         ( 208 )
 # define CRTYPE_PUNKESS_METAL_ARMOR               ( 154 )
 
-// Стандартный мужчина
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 # define CRTYPE_DW_TRIBAL_M                       ( 62 )
 # define CRTYPE_DW_JUMPSUIT_M                     ( 11 )
 # define CRTYPE_DW_LEATHER_JACKET_M               ( 13 )
@@ -1541,7 +1541,7 @@
 # define CRTYPE_DW_LEATHER_ARMOR_RED_M            ( 209 )
 # define CRTYPE_DW_METAL_ARMOR_M                  ( 14 )
 
-// Патлатый
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 # define CRTYPE_LHD_TRIBAL                        ( 110 )
 # define CRTYPE_LHD_JUMPSUIT                      ( 106 )
 # define CRTYPE_LHD_LEATHER_JACKET                ( 108 )
@@ -1552,7 +1552,7 @@
 # define CRTYPE_LHD_LEATHER_ARMOR_RED             ( 211 )
 # define CRTYPE_LHD_METAL_ARMOR                   ( 109 )
 
-// Лысый
+// пїЅпїЅпїЅпїЅпїЅ
 # define CRTYPE_BLD_TRIBAL                        ( 120 )
 # define CRTYPE_BLD_JUMPSUIT                      ( 116 )
 # define CRTYPE_BLD_LEATHER_JACKET                ( 118 )
@@ -1563,7 +1563,7 @@
 # define CRTYPE_BLD_LEATHER_ARMOR_RED             ( 210 )
 # define CRTYPE_BLD_METAL_ARMOR                   ( 119 )
 
-// Негр
+// пїЅпїЅпїЅпїЅ
 # define CRTYPE_BLACK_TRIBAL 					  ( 140 ) 
 # define CRTYPE_BLACK_JUMPSUIT 					  ( 142 ) 
 # define CRTYPE_BLACK_LEATHER_JACKET 			  ( 144 ) 
@@ -1574,7 +1574,7 @@
 # define CRTYPE_BLACK_LEATHER_ARMOR_RED           ( 213 )
 # define CRTYPE_BLACK_METAL_ARMOR 				  ( 9 )   
 
-// Толстяк Вик
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
 # define CRTYPE_FAT_TRIBAL 					      ( 91 ) 
 # define CRTYPE_FAT_JUMPSUIT 					  ( 91 ) 
 # define CRTYPE_FAT_LEATHER_JACKET 			      ( 160 ) 
@@ -1585,128 +1585,128 @@
 # define CRTYPE_FAT_LEATHER_ARMOR_RED             ( 212 )
 # define CRTYPE_FAT_METAL_ARMOR 				  ( 162 )   
 
-// Роботы
-# define CRTYPE_ROBOT                             ( 66 )	//ЖБАН ходячий, оранжевый
-# define CRTYPE_ROBOBRAIN    					  ( 53 )	//робомозг
-# define CRTYPE_ROBOEYE      					  ( 54 )	//робоглаз
-# define CRTYPE_TURRET_LASER 					  ( 90 )	//лазерная турель
-# define CRTYPE_TURRET_MINIGUN					  ( 101 )	//турелька-миниган
-# define CRTYPE_ROBOT_HANDY 					  ( 17 )	//мистер хэнди
+// пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ROBOT                             ( 66 )	//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ROBOBRAIN    					  ( 53 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ROBOEYE      					  ( 54 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_TURRET_LASER 					  ( 90 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_TURRET_MINIGUN					  ( 101 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ROBOT_HANDY 					  ( 17 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 
-// Социальные скины Муж
-# define CRTYPE_BOY         					  ( 27 )	//мальчик
-# define CRTYPE_BOMM        					  ( 31 )	//бомж неопределённого пола
-# define CRTYPE_YELLOW_M    					  ( 40 )	//мужик в желтой рубахе
-# define CRTYPE_NIGGER_RED  					  ( 39 )	//нигер в красной рубахе
-# define CRTYPE_BALD_GREEN  					  ( 41 )	//лысый в зеленом свитере
-# define CRTYPE_DWARF      		    			  ( 42 )	//карлик
-# define CRTYPE_THIN       	  				      ( 43 )	//худой алкаш
-# define CRTYPE_DREDMAN       				      ( 45 )	//патлач с синими штанами
-# define CRTYPE_CAPMAN        				      ( 48 )	//инженер в кепке
-# define CRTYPE_BUTCHER       				      ( 57 )	//мясник
-# define CRTYPE_TRIBAL_M      				      ( 64 )	//дикарь с копной волос
-# define CRTYPE_RICH_M        				      ( 72 )	//мужчина в пиджаке
-# define CRTYPE_BRUISER_BLUE  				      ( 77 )	//синий громила
-# define CRTYPE_BRUISER_GRAY  				      ( 78 )	//серый громила
-# define CRTYPE_ASIAT_M       				      ( 83 )	//азиат в рванье
-# define CRTYPE_POLICE  				      	  ( 87 )	//полицейский
-# define CRTYPE_TEENAGER  				          ( 88 )	//молодой человек
-# define CRTYPE_SCIENTIST 				          ( 89 )	//ученый
-# define CRTYPE_ASIAT_RED 				          ( 92 )	//азиат в кожанке и красной одежде
-# define CRTYPE_ASIAT_BLUE				          ( 93 )	//азиат в кожанке и синей одежде
-# define CRTYPE_MACHO 				              ( 95 )	//мачо в куртке
-# define CRTYPE_WRESTLER 				          ( 96 )	//боксёр
-# define CRTYPE_OLD_MAN 				          ( 98 )	//зажиточный старик
-# define CRTYPE_PANTS_YELLOW_BOLD 				  ( 130 )	//голый торс, желтые штаны, лысый
-# define CRTYPE_PANTS_YELLOW_HAIRY				  ( 134 )	//голый торс, желтые штаны, патлач
-# define CRTYPE_PANTS_BLACK 				      ( 131 )	//голый торс, черные штаны
-# define CRTYPE_PANTS_ALL_BLACK 				  ( 132 )	//загорелый мулат с голым торсом и черными штанами
-# define CRTYPE_DREDMAN_ARMORED 				  ( 133 )	//патлач в более толстой броне
-# define CRTYPE_TWO_ARMS_JACKET_REGULAR 		  ( 138 )	//двурукая косуха, обычный
-# define CRTYPE_TWO_ARMS_JACKET_HAIRY 		      ( 139 )	//двурукая косуха, патлач
-# define CRTYPE_TWO_ARMS_JACKET_HAIRY_BLOND       ( 197 )	//двурукая косуха, патлач блондин
-# define CRTYPE_COAT_GUY  				          ( 169 )	//парень в пальто
-# define CRTYPE_BLACK_COAT_GUY  				  ( 198 )	//парень в черном пальто
-# define CRTYPE_BLUE_SUIT 				          ( 171 )	//парень в синем кителе
-# define CRTYPE_DREDMAN_YELLOW  		          ( 172 )	//патлач в более толстой броне, теперь с желтыми штанами.
-# define CRTYPE_DREDMAN_DARK_YELLOW 	          ( 173 )	//более смуглая версия патлача в более толстой броне, с желтыми штанами.
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+# define CRTYPE_BOY         					  ( 27 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_BOMM        					  ( 31 )	//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+# define CRTYPE_YELLOW_M    					  ( 40 )	//пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_NIGGER_RED  					  ( 39 )	//пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_BALD_GREEN  					  ( 41 )	//пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_DWARF      		    			  ( 42 )	//пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_THIN       	  				      ( 43 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_DREDMAN       				      ( 45 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_CAPMAN        				      ( 48 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_BUTCHER       				      ( 57 )	//пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_TRIBAL_M      				      ( 64 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_RICH_M        				      ( 72 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_BRUISER_BLUE  				      ( 77 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_BRUISER_GRAY  				      ( 78 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ASIAT_M       				      ( 83 )	//пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_POLICE  				      	  ( 87 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_TEENAGER  				          ( 88 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_SCIENTIST 				          ( 89 )	//пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ASIAT_RED 				          ( 92 )	//пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ASIAT_BLUE				          ( 93 )	//пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_MACHO 				              ( 95 )	//пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_WRESTLER 				          ( 96 )	//пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_OLD_MAN 				          ( 98 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_PANTS_YELLOW_BOLD 				  ( 130 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_PANTS_YELLOW_HAIRY				  ( 134 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_PANTS_BLACK 				      ( 131 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_PANTS_ALL_BLACK 				  ( 132 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_DREDMAN_ARMORED 				  ( 133 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_TWO_ARMS_JACKET_REGULAR 		  ( 138 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_TWO_ARMS_JACKET_HAIRY 		      ( 139 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_TWO_ARMS_JACKET_HAIRY_BLOND       ( 197 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_COAT_GUY  				          ( 169 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_BLACK_COAT_GUY  				  ( 198 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_BLUE_SUIT 				          ( 171 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_DREDMAN_YELLOW  		          ( 172 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+# define CRTYPE_DREDMAN_DARK_YELLOW 	          ( 173 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 
-// Социальные скины Жен
-# define CRTYPE_GIRL   				              ( 103 )	//девочка
-# define CRTYPE_YELLOW_F			              ( 33 )	//желтое платье
-# define CRTYPE_METAL_YELLOW_F 	                  ( 35 )	//баба в железке с желтыми штанами
-# define CRTYPE_METAL_PINK_F 	                  ( 35 )	//баба в железке с фиолетовыми штанами
-# define CRTYPE_TANDI    				          ( 36 )	//танди
-# define CRTYPE_WHORE    				          ( 37 )	//шлюха из Рено
-# define CRTYPE_REDHEADED_F   			          ( 38 )	//красноволовая пижамиха
-# define CRTYPE_TRIBAL_F  				          ( 63 )	//дикарка с копной волос
-# define CRTYPE_RICH_F  				          ( 73 )	//женщина в платье
-# define CRTYPE_VAULT_F  				          ( 74 )	//женщина в пижаме без номера
-# define CRTYPE_BLACK_F  				          ( 83 )	//Линетт, негритянка в пижаме
-# define CRTYPE_ASIAT_F  				          ( 94 )	//азиатка в рванье
-# define CRTYPE_TANDI_BLACK  				      ( 164 )	//танди, покрасившая волосы в черный
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+# define CRTYPE_GIRL   				              ( 103 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_YELLOW_F			              ( 33 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_METAL_YELLOW_F 	                  ( 35 )	//пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_METAL_PINK_F 	                  ( 35 )	//пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_TANDI    				          ( 36 )	//пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_WHORE    				          ( 37 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ
+# define CRTYPE_REDHEADED_F   			          ( 38 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_TRIBAL_F  				          ( 63 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_RICH_F  				          ( 73 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_VAULT_F  				          ( 74 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_BLACK_F  				          ( 83 )	//пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ASIAT_F  				          ( 94 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_TANDI_BLACK  				      ( 164 )	//пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
-// Брони Муж
-# define CRTYPE_PA_HEADLESS  				      ( 30 )	//ПА без шлема
-# define CRTYPE_PA  				              ( 1 )		//ПА
-# define CRTYPE_PA_HARDY 				          ( 193 )	//ПА закаленная
-# define CRTYPE_PA_OXIDE 				          ( 194 )	//ПА ржавая
-# define CRTYPE_APA  				              ( 71 )	//АПА
-# define CRTYPE_CA_M	 				          ( 10 )	//ББ
-# define CRTYPE_CA_FOR_NIGGERS  			      ( 150 )	//ББшка с нигером внутри
-# define CRTYPE_CA_BLUE_M  				          ( 104 )	//Синяя ББ
-# define CRTYPE_CA_DARK_M  				          ( 112 )	//Тёмная ББ
-# define CRTYPE_CA_BALD  				          ( 158 )	//ББшка для лысых
-# define CRTYPE_CA_BALD_BLACK  				      ( 199 )	//ББшка для лысых черная
-# define CRTYPE_CA_CLAW_M  				          ( 177 )	//Боевая броня "Коготь"
-# define CRTYPE_CA_SAND_1_M  				      ( 178 )	//Боевая броня "Пустынник" МК1
-# define CRTYPE_CA_SAND_2_M  				      ( 179 )	//Боевая броня "Пустынник" МК2
-# define CRTYPE_CA_SAND_3_M  				      ( 180 )	//Боевая броня "Пустынник" МК3
-# define CRTYPE_CA_NIGHT_M  				      ( 181 )	//Боевая броня "Ночь"
-# define CRTYPE_CA_MKII_M  				     	  ( 182 )	//Боевая броня МК2
-# define CRTYPE_CA_REN_MKI_M  				      ( 183 )	//Боевая броня "Ренегат" МК1
-# define CRTYPE_CA_REN_MKII_M  				      ( 184 )	//Боевая броня "Ренегат" МК2
-# define CRTYPE_EXO_BROWN						  ( 241 )	//Экзоскелет коричневый
-# define CRTYPE_EXO_GRAY						  ( 242 )	//Экзоскелет серый
-# define CRTYPE_EXO_GOLD						  ( 302 )	//Экзоскелет золотой
+// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+# define CRTYPE_PA_HEADLESS  				      ( 30 )	//пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_PA  				              ( 1 )		//пїЅпїЅ
+# define CRTYPE_PA_HARDY 				          ( 193 )	//пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_PA_OXIDE 				          ( 194 )	//пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_APA  				              ( 71 )	//пїЅпїЅпїЅ
+# define CRTYPE_CA_M	 				          ( 10 )	//пїЅпїЅ
+# define CRTYPE_CA_FOR_NIGGERS  			      ( 150 )	//пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_CA_BLUE_M  				          ( 104 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ
+# define CRTYPE_CA_DARK_M  				          ( 112 )	//ТёпїЅпїЅпїЅпїЅ пїЅпїЅ
+# define CRTYPE_CA_BALD  				          ( 158 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_CA_BALD_BLACK  				      ( 199 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_CA_CLAW_M  				          ( 177 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅ"
+# define CRTYPE_CA_SAND_1_M  				      ( 178 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ1
+# define CRTYPE_CA_SAND_2_M  				      ( 179 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ2
+# define CRTYPE_CA_SAND_3_M  				      ( 180 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ3
+# define CRTYPE_CA_NIGHT_M  				      ( 181 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅ"
+# define CRTYPE_CA_MKII_M  				     	  ( 182 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ2
+# define CRTYPE_CA_REN_MKI_M  				      ( 183 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ1
+# define CRTYPE_CA_REN_MKII_M  				      ( 184 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ2
+# define CRTYPE_EXO_BROWN						  ( 241 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_EXO_GRAY						  ( 242 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_EXO_GOLD						  ( 302 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-// Брони Жен
-# define CRTYPE_CA_F	 				          ( 3 )		//ББ
-# define CRTYPE_CA_BLUE_F 				          ( 105 )	//Синяя ББ
-# define CRTYPE_CA_DARK_F  				          ( 111 )	//Тёмная ББ
-# define CRTYPE_CA_CLAW_F  				          ( 185 )	//Боевая броня "Коготь"
-# define CRTYPE_CA_SAND_1_F  				      ( 186 )	//Боевая броня "Пустынник" МК1
-# define CRTYPE_CA_SAND_2_F  				      ( 187 )	//Боевая броня "Пустынник" МК2
-# define CRTYPE_CA_SAND_3_F  				      ( 188 )	//Боевая броня "Пустынник" МК3
-# define CRTYPE_CA_NIGHT_F  				      ( 189 )	//Боевая броня "Ночь"
-# define CRTYPE_CA_MKII_F  				     	  ( 190 )	//Боевая броня МК2
-# define CRTYPE_CA_REN_MKI_F  				      ( 191 )	//Боевая броня "Ренегат" МК1
-# define CRTYPE_CA_REN_MKII_F  				      ( 192 )	//Боевая броня "Ренегат" МК2
+// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+# define CRTYPE_CA_F	 				          ( 3 )		//пїЅпїЅ
+# define CRTYPE_CA_BLUE_F 				          ( 105 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ
+# define CRTYPE_CA_DARK_F  				          ( 111 )	//ТёпїЅпїЅпїЅпїЅ пїЅпїЅ
+# define CRTYPE_CA_CLAW_F  				          ( 185 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅ"
+# define CRTYPE_CA_SAND_1_F  				      ( 186 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ1
+# define CRTYPE_CA_SAND_2_F  				      ( 187 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ2
+# define CRTYPE_CA_SAND_3_F  				      ( 188 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ3
+# define CRTYPE_CA_NIGHT_F  				      ( 189 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅ"
+# define CRTYPE_CA_MKII_F  				     	  ( 190 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ2
+# define CRTYPE_CA_REN_MKI_F  				      ( 191 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ1
+# define CRTYPE_CA_REN_MKII_F  				      ( 192 )	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ2
 
-// Робы
-# define CRTYPE_ROBE_PINK  				          ( 2 )		//Роба пурпурная
-# define CRTYPE_ROBE_BLUE  				          ( 26 )	//Роба синяя
-# define CRTYPE_ROBE_BROWN  			          ( 56 )	//Роба бардовая
-# define CRTYPE_ROBE_GREY  				          ( 84 )	//Роба серая
-# define CRTYPE_ROBE_SAND  				          ( 122 )	//Роба песчаная
-# define CRTYPE_ROBE_GREEN  			          ( 159 )	//Роба зеленая
+// пїЅпїЅпїЅпїЅ
+# define CRTYPE_ROBE_PINK  				          ( 2 )		//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ROBE_BLUE  				          ( 26 )	//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ROBE_BROWN  			          ( 56 )	//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ROBE_GREY  				          ( 84 )	//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ROBE_SAND  				          ( 122 )	//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_ROBE_GREEN  			          ( 159 )	//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-// Мутанты
-# define CRTYPE_GHOUL_GREEN  			          ( 28 )	//обычный гуль
-# define CRTYPE_GHOUL_WHITE  			          ( 29 )	//светящийся гуль
-# define CRTYPE_GHOUL_AVERAGE  			          ( 137 )	//не очень светящийся гуль
-# define CRTYPE_GHOUL_GRAY  			          ( 155 )	//серый гуль
-# define CRTYPE_GHOUL_RUNNING  			          ( 79 )	//бегающий гуль (ленни)
-# define CRTYPE_GHOUL_RUNNING_GREEN  	          ( 174 )	//бегающий гуль (ленни), зелёный
-# define CRTYPE_GHOUL_RUNNING_GRAY 		          ( 175 )	//бегающий гуль (ленни), серый
-# define CRTYPE_SUPERMUTE_NORMAL  		          ( 21 )	//обычный супермут
-# define CRTYPE_SUPERMUTE_JACKET  	 	          ( 20 )	//кожанка для супермутов
-# define CRTYPE_SUPERMUTE_METAL  			      ( 114 )	//металка для супермутов
-# define CRTYPE_SUPERMUTE_METAL_BLACK 		      ( 170 )	//металка для супермутов, моднявая
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_GHOUL_GREEN  			          ( 28 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+# define CRTYPE_GHOUL_WHITE  			          ( 29 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+# define CRTYPE_GHOUL_AVERAGE  			          ( 137 )	//пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+# define CRTYPE_GHOUL_GRAY  			          ( 155 )	//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+# define CRTYPE_GHOUL_RUNNING  			          ( 79 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅ)
+# define CRTYPE_GHOUL_RUNNING_GREEN  	          ( 174 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅ), пїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_GHOUL_RUNNING_GRAY 		          ( 175 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅ), пїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_SUPERMUTE_NORMAL  		          ( 21 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_SUPERMUTE_JACKET  	 	          ( 20 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_SUPERMUTE_METAL  			      ( 114 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+# define CRTYPE_SUPERMUTE_METAL_BLACK 		      ( 170 )	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-// Прочие
+// пїЅпїЅпїЅпїЅпїЅпїЅ
 # define CRTYPE_VAULT_BOY                         ( 249 )
-# define CRTYPE_SMALL_ROBE						  ( 99 )	//Роба смертокогтя-Гориса
+# define CRTYPE_SMALL_ROBE						  ( 99 )	//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅ
 // 3d critters
 # define CRTYPE_3D_MALE_NORMAL                    ( 290 )
 # define CRTYPE_3D_MALE_WIRY                      ( 291 )
@@ -2055,7 +2055,7 @@
 # pragma globalvar "uint __HitAimTorso =  0"
 # pragma globalvar "uint __HitAimArms  = 30"
 # pragma globalvar "uint __HitAimLegs  = 20"
-# pragma globalvar "uint __EncounterTime = 0" // Как часто пробовать создать энкаунтер, в миллисекундах
+# pragma globalvar "uint __EncounterTime = 0" // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 // TNF
 # pragma globalvar "bool __Zombies  = false"
@@ -2229,9 +2229,11 @@
 // Test function
 # ifdef __SERVER
 #  pragma bindfunc "void TestFunc(string&) -> fonline_test.dll TestFunc"
+#  pragma bindfunc "void TestFuncRust() -> rust_tnf_server.dll TestFuncRust"
 # endif
 # ifdef __CLIENT
 #  pragma bindfunc "void TestFunc(string&) -> fonline_test_client.dll TestFunc"
+#  pragma bindfunc "void TestFuncRust() -> rust_tnf_client.dll TestFuncRust"
 # endif
 
 #endif // SKIP_PRAGMAS
@@ -2239,11 +2241,11 @@
 // ////////////////////////////////
 // FOnline Roleplay
 
-// Бонусы от вторичных навыков при стрельбе.
+// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 #define SECONDARY_SKILLS_BONUS_CAP    ( 125 )
 #define PID_WAYPOINT                  ( 1400 )
 
-// Яйца и матки аркадников. Пошло звучит мля =/
+// пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ =/
 #define TEAM_DEATHCLAW_METRA          ( 38 )
 #define TEAM_ALIEN_METRA              ( 39 )
 #define TEAM_FIREGECKO_METRA          ( 40 )

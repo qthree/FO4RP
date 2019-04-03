@@ -191,11 +191,13 @@ void InitializeGame()                    // Export
     // / Parameters behavoiours
     #  ifndef __CLIENT
     string dllName = "fonline_tnf.dll@";
+	string dllNameRust = "rust_tnf_server.dll@";
     #  endif
     #  ifdef __CLIENT
     string dllName = "fonline_tnf_client.dll@";
+	string dllNameRust = "rust_tnf_client.dll@";
     #  endif
-    SetParameterGetBehaviour( ST_STRENGTH, dllName + "getParam_Strength" );
+    SetParameterGetBehaviour( ST_STRENGTH, dllNameRust + "getParam_Strength" );
     SetParameterGetBehaviour( ST_PERCEPTION, dllName + "getParam_Perception" );
     SetParameterGetBehaviour( ST_ENDURANCE, dllName + "getParam_Endurance" );
     SetParameterGetBehaviour( ST_CHARISMA, dllName + "getParam_Charisma" );
