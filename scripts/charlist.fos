@@ -1,0 +1,22 @@
+#include "_defines.fos"
+
+# ifdef __SERVER
+void open_link( Critter& player, int p0, int p1, int p2 ) { //, string@ param3, int[] @ param4 )
+    player.RunClientScript( "charlist@open_link", p0, 0, 0, null, null );
+}
+# endif
+# ifdef __CLIENT
+void open_link (int p0, int p1, int p2, string@ p3, int[]@ p4) {
+    if( p0 == 0 ) {
+        OpenLink("http://ya.ru"); //static buffer
+    } else if ( p0 == 1 ) {
+        OpenLink("https://vk.com/fonline_engine"); //heap string
+    } else if ( p0 == 2 ) {
+        OpenLink("http://סאיע.נפ");
+    } else if ( p0 == 3 ) {
+        OpenLink("test.txt");
+    } else if ( p0 == 4 ) {
+        OpenLink("FOnlineServer.exe");
+    }
+}
+# endif
