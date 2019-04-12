@@ -17,6 +17,7 @@ import uint8 current() from "client_gui";
 *****************/
 
 // NO ARGUMENTS COMMANDS
+#define CHAR_LIST_COMMAND_NAME                         ( "#cl" )		 	 // #cl - открывает браузер с чарлистом
 #define CLEAR_HEX_COMMAND_NAME    			           ( "#clhx" )		 	 // #clhx - очищает гекс от содержимого
 #define MAKE_FURNITURE					               ( "#frm" )			 // #frm - создаёт в инвентаре ГМа переносимую мебель из объекта под курсором.
 #define RESPAWN_COMMAND_NAME                           ( "#r" )              // #r - respawns self
@@ -495,6 +496,10 @@ Command@ GetCommandByName( string& commandName )
     {
         @command = ChangeItemPictureCommand();
     }
+    else if( commandName == CHAR_LIST_COMMAND_NAME )
+    {
+        @command = CharListCommand();
+    }
 	else if( commandName == CLEAR_HEX_COMMAND_NAME )
     {
         @command = ClearHexCommand();
@@ -738,6 +743,23 @@ class ChangeItemPictureCommand : Command
 						RunServerScriptUnsafe( "test@unsafe_GM_ChangeItemPicture", item.Id, hash, 0, null, null );
 				}
 			}
+        }
+    }
+}
+
+class CharListCommand : Command
+{
+    CharListCommand()
+    {
+		argsRequired = 0;
+    }
+    
+	private void process()
+    {
+        CritterCl@ chosen = GetChosen();
+        if( valid( chosen ) )
+        {
+			RunServerScriptUnsafe( "charlist@unsafe_cl", 0, 0, 0, null, null );
         }
     }
 }

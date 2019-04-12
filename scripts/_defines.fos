@@ -2234,7 +2234,6 @@
 # ifdef __CLIENT
 #  pragma bindfunc "void TestFunc(string&) -> fonline_test_client.dll TestFunc"
 #  pragma bindfunc "void TestFuncRust() -> rust_tnf_client.dll TestFuncRust"
-#  pragma bindfunc "void OpenLink(string&) -> rust_tnf_client.dll open_link"
 # endif
 
 #endif // SKIP_PRAGMAS
