@@ -7,12 +7,12 @@
 # pragma bindfunc "void UpdateCharacter(Critter&) -> rust_tnf_server.dll update_character"
 #include "_global_events.fos"
 
-class CharList //: iManagerModule
+class CharSheet //: iManagerModule
 {
-    CharList()
+    CharSheet()
     {
         LaunchActix();
-        //AddStartCallback( "charlist", "start" );
+        //AddStartCallback( "charsheet", "start" );
     }
 
     bool manager_init()
@@ -22,15 +22,15 @@ class CharList //: iManagerModule
     }
 }
 
-CharList charlist;
+CharSheet charsheet;
 //void start()
 //{
-//    iManagerModule@  module = charlist;
-//    iManagerElement@ manager = manager_add_module( module, "CharList", 80 );
+//    iManagerModule@  module = charsheet;
+//    iManagerElement@ manager = manager_add_module( module, "CharSheet", 80 );
 //}
 
 //void open_link( Critter& player, int p0, int p1, int p2 ) {
-//    player.RunClientScript( "charlist@open_link", p0, 0, 0, "localhost", null );
+//    player.RunClientScript( "charsheet@open_link", p0, 0, 0, "localhost", null );
 //}
 
 void info( Critter& player, int p0, int p1, int p2 ) {
@@ -41,13 +41,13 @@ void info( Critter& player, int p0, int p1, int p2 ) {
     Critter@ target = GetCritter(id);
     if(target !is null && target.IsPlayer()) {
         UpdateCharacter(target);
-        player.RunClientScript( "charlist@open_link", 0, 0, 0, "http://localhost:8000/"+id, null );
+        player.RunClientScript( "charsheet@open_link", 0, 0, 0, "http://localhost:8000/"+id, null );
     }
 }
 
 void unsafe_cl( Critter& player, int p0, int p1, int p2, string@ p3, int[]@ p4) {
     UpdateCharacter(player);
-    player.RunClientScript( "charlist@open_link", 0, 0, 0, "http://localhost:8000/"+player.Id, null );
+    player.RunClientScript( "charsheet@open_link", 0, 0, 0, "http://localhost:8000/"+player.Id, null );
 }
 
 # endif
